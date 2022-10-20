@@ -1,6 +1,6 @@
-<div class="jumbotron">
-  <h1 class="display-4">  </h1>
-  <h2> Reported Area: <% @output[0]['ReportingArea'] %> </h2>
+<div class="jumbotron <%= @api_color %>">
+  <h1 class="display-4">Air Quality </h1>
+  <h2> Reported Area: <%= @output[0]['ReportingArea']%></h2> 
   <br />
   <h3> The air quality for this area is: <%= @output[0]['AQI'] %></h3>
   <p class="lead">This is the current ozone air qulity readout</p>
@@ -8,10 +8,16 @@
   <br />
   <p>Refresh your web browser to update the reading....</p>
   <br />
+
+  <h1 class="display-4">Weather Temperature </h1>
+  <h2> Reported Area: <%= @output_w[0]['ReportingArea'] %> </h2>
+  <br />
+  <h3> The weather for this area is: <%= @output_w[0]['AQI'] %></h3>
+<br />
   <a class="btn btn-secondary btn-lg" href="#" role="button">Learn more</a>
 
 </div>
 
-<br />
+
 
 

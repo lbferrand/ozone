@@ -16,3 +16,36 @@
  */
 
 @import "bootstrap";
+
+.jumbotron {
+  border-radius: 6px;
+  padding: 20px;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+}
+
+.green {
+  background-color: rgb(110, 232, 187);
+}
+.yellow {
+  background-color: rgb(235, 235, 143);
+}
+.orange {
+  background-color: rgb(224, 176, 87);
+}
+.red {
+  background-color: rgb(238, 123, 123);
+}
+.magenta {
+  background-color: rgb(244, 169, 244);
+}
+.maroon {
+  background-color: rgb(166, 96, 96);
+}
+
+.gray {
+  background-color: rgb(176, 174, 174);
+}
